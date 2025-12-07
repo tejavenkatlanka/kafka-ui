@@ -91,7 +91,7 @@ dependencies:
     version: 7.43.1(react@18.2.0)
   react-hot-toast:
     specifier: ^2.4.0
-    version: 2.4.1(csstype@3.1.3)(react-dom@18.1.0)(react@18.2.0)
+    version: 2.4.1(csstype@3.2.3)(react-dom@18.1.0)(react@18.2.0)
   react-is:
     specifier: ^18.2.0
     version: 18.2.0
@@ -162,7 +162,7 @@ devDependencies:
     version: 4.14.177
   '@types/lossless-json':
     specifier: ^1.0.1
-    version: 1.0.2
+    version: 1.0.4
   '@types/node':
     specifier: ^16.4.13
     version: 16.11.7
@@ -1943,8 +1943,8 @@ packages:
     resolution: {integrity: sha512-0fDwydE2clKe9MNfvXHBHF9WEahRuj+msTuQqOmAApNORFvhMYZKNGGJdCzuhheVjMps/ti0Ak/iJPACMaevvw==}
     dev: true
 
-  /@types/lossless-json@1.0.2:
-    resolution: {integrity: sha512-RdV8M8qlWUpmk7gnY3fBB4TNn3Ab8hMMqhJC/sG77t8Zk+hjVwvZGTFv+upEBUkxXbq0+UxGAPhOml83w1IkIQ==}
+  /@types/lossless-json@1.0.4:
+    resolution: {integrity: sha512-eHhzo0p2p9On3cTr5X0Q0XsOjJxkqYzQi5Le5ObSiJjnLlGpDQvTcQEXknCkvKOFLBLa8ny4dgJKr0ADRV8yig==}
     dev: true
 
   /@types/node@16.11.7:
@@ -2935,6 +2935,10 @@ packages:
 
   /csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
+
+  /csstype@3.2.3:
+    resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
+    dev: false
 
   /damerau-levenshtein@1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
@@ -4072,12 +4076,12 @@ packages:
   /globrex@0.1.2:
     resolution: {integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==}
 
-  /goober@2.1.10(csstype@3.1.3):
+  /goober@2.1.10(csstype@3.2.3):
     resolution: {integrity: sha512-7PpuQMH10jaTWm33sQgBQvz45pHR8N4l3Cu3WMGEWmHShAcTuuP7I+5/DwKo39fwti5A80WAjvqgz6SSlgWmGA==}
     peerDependencies:
       csstype: ^3.0.10
     dependencies:
-      csstype: 3.1.3
+      csstype: 3.2.3
     dev: false
 
   /gopd@1.2.0:
@@ -5906,14 +5910,14 @@ packages:
       react: 18.2.0
     dev: false
 
-  /react-hot-toast@2.4.1(csstype@3.1.3)(react-dom@18.1.0)(react@18.2.0):
+  /react-hot-toast@2.4.1(csstype@3.2.3)(react-dom@18.1.0)(react@18.2.0):
     resolution: {integrity: sha512-j8z+cQbWIM5LY37pR6uZR6D4LfseplqnuAO4co4u8917hBUvXlEqyP1ZzqVLcqoyUesZZv/ImreoCeHVDpE5pQ==}
     engines: {node: '>=10'}
     peerDependencies:
       react: '>=16'
       react-dom: '>=16'
     dependencies:
-      goober: 2.1.10(csstype@3.1.3)
+      goober: 2.1.10(csstype@3.2.3)
       react: 18.2.0
       react-dom: 18.1.0(react@18.2.0)
     transitivePeerDependencies:
