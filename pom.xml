@@ -25,7 +25,7 @@
         <apache.commons.version>2.11.1</apache.commons.version>
         <assertj.version>3.19.0</assertj.version>
         <avro.version>1.11.1</avro.version>
-        <byte-buddy.version>1.12.19</byte-buddy.version>
+        <byte-buddy.version>1.18.1</byte-buddy.version>
         <confluent.version>7.4.0</confluent.version>
         <datasketches-java.version>3.1.0</datasketches-java.version>
         <groovy.version>3.0.13</groovy.version>
@@ -45,7 +45,7 @@
         <!-- Test dependency versions -->
         <junit.version>5.9.1</junit.version>
         <mockito.version>5.3.1</mockito.version>
-        <okhttp3.mockwebserver.version>4.10.0</okhttp3.mockwebserver.version>
+        <okhttp3.mockwebserver.version>5.3.2</okhttp3.mockwebserver.version>
         <testcontainers.version>1.17.5</testcontainers.version>
 
         <!-- Frontend dependency versions -->
@@ -54,7 +54,7 @@
 
         <!-- Plugin versions -->
         <fabric8-maven-plugin.version>0.42.1</fabric8-maven-plugin.version>
-        <frontend-maven-plugin.version>1.12.1</frontend-maven-plugin.version>
+        <frontend-maven-plugin.version>1.15.4</frontend-maven-plugin.version>
         <maven-clean-plugin.version>3.2.0</maven-clean-plugin.version>
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
         <maven-resources-plugin.version>3.2.0</maven-resources-plugin.version>
