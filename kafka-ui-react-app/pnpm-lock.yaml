@@ -46,7 +46,7 @@ dependencies:
     version: 2.1.1(ajv@8.8.2)
   classnames:
     specifier: ^2.2.6
-    version: 2.3.1
+    version: 2.5.1
   fetch-mock:
     specifier: ^9.11.0
     version: 9.11.0
@@ -3117,8 +3117,8 @@ packages:
     resolution: {integrity: sha512-+CmxIZ/L2vNcEfvNtLdU0ZQ6mbq3FZnwAP2PPTiKP+1QOoKwlKlPgb8UKV0Dds7QVaMnHm+FwSft2VB0s/SLjQ==}
     dev: false
 
-  /classnames@2.3.1:
-    resolution: {integrity: sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==}
+  /classnames@2.5.1:
+    resolution: {integrity: sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==}
     dev: false
 
   /cli-cursor@3.1.0:
@@ -5565,7 +5565,7 @@ packages:
     resolution: {integrity: sha512-pXe9H1m6IgIpXmE5JSb8epilNTGsmTb2iPohAXpOdhqGFbQjNeHHsZxU+C8w6T81GZxSPFLeUoqDJmzxx5IGuw==}
     deprecated: Please switch to @apidevtools/json-schema-ref-parser
     dependencies:
-      call-me-maybe: 1.0.1
+      call-me-maybe: 1.0.2
       js-yaml: 3.14.2
       ono: 4.0.11
     dev: false
@@ -6363,7 +6363,7 @@ packages:
       react-dom: ^16.9.0 || ^17 || ^18
     dependencies:
       '@popperjs/core': 2.9.2
-      classnames: 2.3.1
+      classnames: 2.5.1
       date-fns: 2.27.0
       prop-types: 15.8.1
       react: 18.2.0
