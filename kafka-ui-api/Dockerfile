@@ -1,5 +1,5 @@
 #FROM azul/zulu-openjdk-alpine:17-jre-headless
-FROM azul/zulu-openjdk-alpine@sha256:a36679ac0d28cb835e2a8c00e1e0d95509c6c51c5081c7782b85edb1f37a771a
+FROM azul/zulu-openjdk-alpine@sha256:2c13b82cc02e4e9573e94274abba8407010b74dcd11090dc48b3bb4af9aefc87
 
 RUN apk add --no-cache \
     # snappy codec
