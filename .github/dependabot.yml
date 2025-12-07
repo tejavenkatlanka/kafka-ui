@@ -91,6 +91,8 @@ updates:
     - 0.15.0
 - package-ecosystem: "github-actions"
   directory: "/"
+  group:
+    name: "all-updates"
   schedule:
     interval: weekly
     time: "10:00"
