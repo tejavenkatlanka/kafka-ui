@@ -37,7 +37,7 @@ dependencies:
     version: 5.14.5
   ace-builds:
     specifier: ^1.7.1
-    version: 1.7.1
+    version: 1.43.5
   ajv:
     specifier: ^8.6.3
     version: 8.17.1
@@ -2595,8 +2595,8 @@ packages:
       vite: 5.4.21(@types/node@16.11.7)(sass@1.66.1)
     dev: true
 
-  /ace-builds@1.7.1:
-    resolution: {integrity: sha512-1mcbP5kXvr729sJ9dA/8tul0pjuvKbma0LF/ZMRwPEwjoNWNpe/x0OXpaPJo36aRpZCjRZMl5zsME3hAKTiaNw==}
+  /ace-builds@1.43.5:
+    resolution: {integrity: sha512-iH5FLBKdB7SVn9GR37UgA/tpQS8OTWIxWAuq3Ofaw+Qbc69FfPXsXd9jeW7KRG2xKpKMqBDnu0tHBrCWY5QI7A==}
     dev: false
 
   /acorn-jsx@5.3.2(acorn@8.10.0):
@@ -6251,7 +6251,7 @@ packages:
       react: ^0.13.0 || ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0
       react-dom: ^0.13.0 || ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      ace-builds: 1.7.1
+      ace-builds: 1.43.5
       diff-match-patch: 1.0.5
       lodash.get: 4.4.2
       lodash.isequal: 4.5.0
