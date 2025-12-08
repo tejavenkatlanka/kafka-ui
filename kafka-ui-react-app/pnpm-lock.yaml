@@ -97,7 +97,7 @@ dependencies:
     version: 18.2.0
   react-multi-select-component:
     specifier: ^4.3.3
-    version: 4.3.3(react-dom@18.1.0)(react@18.2.0)
+    version: 4.3.4(react-dom@18.1.0)(react@18.2.0)
   react-redux:
     specifier: ^8.0.2
     version: 8.0.2(@types/react-dom@18.0.5)(@types/react@18.2.21)(react-dom@18.1.0)(react@18.2.0)(redux@4.2.0)
@@ -6333,8 +6333,8 @@ packages:
   /react-is@18.3.1:
     resolution: {integrity: sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==}
 
-  /react-multi-select-component@4.3.3(react-dom@18.1.0)(react@18.2.0):
-    resolution: {integrity: sha512-V8cDJC3M7F27PWv1baV8FpJReHa/SbpJGL80CmXwnlMkDK2KMlQSRDmDzBnmCjcbROIgoztdW+gYBpqo9BIF4g==}
+  /react-multi-select-component@4.3.4(react-dom@18.1.0)(react@18.2.0):
+    resolution: {integrity: sha512-Ui/bzCbROF4WfKq3OKWyQJHmy/bd1mW7CQM+L83TfiltuVvHElhKEyPM3JzO9urIcWplBUKv+kyxqmEnd9jPcA==}
     peerDependencies:
       react: ^16 || ^17 || ^18
       react-dom: ^16 || ^17 || ^18
